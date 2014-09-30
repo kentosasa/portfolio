@@ -1,0 +1,240 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Twenty by HTML5 UP</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+		<!-- スムーズスクロール部分の記述 -->
+		<script>
+		$(function(){
+		   // #で始まるアンカーをクリックした場合に処理
+		   $('a[href^=#]').click(function() {
+		      // スクロールの速度
+		      var speed = 400; // ミリ秒
+		      // アンカーの値取得
+		      var href= $(this).attr("href");
+		      // 移動先を取得
+		      var target = $(href == "#" || href == "" ? 'html' : href);
+		      // 移動先を数値で取得
+		      var position = target.offset().top;
+		      // スムーススクロール
+		      $('body,html').animate({scrollTop:position}, speed, 'swing');
+		      return false;
+		   });
+		});
+		</script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+			<link rel="stylesheet" href="css/style-noscript.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body class="index">
+	
+		<!-- Header -->
+			<header id="header" class="alt">
+				<h1 id="logo"><a href="index.html">Portfolio</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">はじめまして</a></li>
+						<li><a href="#about">どんなひと？</a></li>
+						<li><a href="#award">なにやった？</a></li>
+						<li><a href="#work">なにつくった？</a></li>
+						<li><a href="#cta">連絡先は？</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Banner -->		
+			<section id="banner">
+				
+				<!--
+					".inner" is set up as an inline-block so it automatically expands
+					in both directions to fit whatever's inside it. This means it won't
+					automatically wrap lines, so be sure to use line breaks where
+					appropriate (<br />).
+				-->
+				<div class="inner">
+					
+					<header>
+						<h2>Portfolio</h2>
+					</header>
+					<p>ささけんです。<br>ものづくり大好き人間です。</p>
+					<footer>
+						<ul class="buttons">
+							<li><a href="#main" class="button">くわしく</a></li>
+						</ul>
+					</footer>
+				
+				</div>
+				
+			</section>
+		
+		<!-- Main -->
+			<article id="main">					
+				<!-- One -->
+					<section id = "about" class="wrapper style2 container special-alt">
+						<header class="major">
+							<h2>こんな人</h2>
+						</header>						
+						<div class="row half">
+							<div class="8u">
+							
+								<header>
+									<h2>笹本健斗(Kento Sasamoto)</h2>
+								</header>
+								<p>
+									1995年07月21日生まれ。高校2年生のときLife is Techで初めてプログラミングを経験しました。3日間のキャンプでどはまりして、Androidアプリの独学に挑戦するが挫折。AO入試で慶応義塾大学の合格を決めた後、学ランでWantedlyに乗り込みインターン生として採用していただきました。目指すのはちょっとだけ世界を楽しくするものづくり。
+								</p>
+								<h3>できること</h3>
+								<p>
+									html, css, javascript, jquery, java(android), ruby, rails, processing, arduino
+								</p>
+								<h3>こんなとこいました</h3>
+								<p>
+									Wantedly 2014.1~2014-5
+									<br>Life is Tech 2014.3~
+									<br>Recruit Marketing Partners 2014.8~2014.9
+								</p>
+							</div>
+							<div class="4u skel-cell-important">
+							
+								<ul class="featured-icons">
+									<li><span class="icon fa-clock-o"><span class="label">Feature 1</span></span></li>
+									<li><span class="icon fa-volume-up"><span class="label">Feature 2</span></span></li>
+									<li><span class="icon fa-laptop"><span class="label">Feature 3</span></span></li>
+									<li><span class="icon fa-inbox"><span class="label">Feature 4</span></span></li>
+									<li><span class="icon fa-paper-plane"><span class="label">Feature 3</span></span></li>
+									<li><span class="icon fa-futbol-o"><span class="label">Feature 4</span></span></li>
+									<li><span class="icon fa-wifi"><span class="label">Feature 3</span></span></li>
+									<li><span class="icon fa-tags"><span class="label">Feature 4</span></span></li>
+								</ul>
+							
+							</div>				
+						</div>
+					</section>
+					
+				<!-- Two -->
+					<section id = "award" class="wrapper style1 container special">
+						<header class="major">
+							<h2>受賞歴</h2>
+						</header>
+						<div class="row">
+							<div class="4u">							
+								<section>
+									<span class="icon featured fa-trophy"></span>
+									<header>
+										<h3><a href="https://www.applikoshien.jp/">アプリ甲子園優秀賞</a></h3>
+									</header>
+									<p>アプリ甲子園2012年大会<br>開催日 2012年09月30日<br></p>
+								</section>
+							</div>
+							<div class="4u">							
+								<section>
+									<span class="icon featured fa-trophy"></span>
+									<header>
+										<h3><a href="http://www-cg.cis.iwate-u.ac.jp/AT2014/">Aet&Technology優秀賞</a></h3>
+									</header>
+									<p>Aet&Technology2014年大会<br>開催日 2014年06月28日<br></p>
+								</section>
+							</div>
+							<div class="4u">							
+								<section>
+									<span class="icon featured fa-trophy"></span>
+									<header>
+										<h3><a href="http://minato-media-museum.com/prize/">MMMM焼きそば大学院賞</a></h3>
+									</header>
+									<p>アプリ甲子園2014年大会<br>開催日 2014年08月31日<br></p>
+								</section>
+							</div>
+						</div>
+					</section>
+					
+				<!-- Three -->
+					<section id = "work" class="wrapper style3 container special">
+						<header class="major">
+							<h2>過去の作品</h2>
+						</header>
+						
+						<div class="row">
+							<div class="4u">
+							
+								<section>
+									<a href="https://play.google.com/store/apps/details?id=com.kento.quicknews&hl=ja" class="image featured"><img class="image featured" src="images/gather_news.png" alt="ギャザーニュース" /></a>
+									<header>
+										<h3>Gather News</h3>
+									</header>
+									<p>2014年06月リリースのAndroidアプリ。SmartNewsのように圏外でもニュースを閲覧できる。テキストを読むことに特化していて、画面遷移無しでニュースを読むことができる。</p>
+								</section>
+
+							</div>
+							<div class="4u">
+							
+								<section>
+									<a href="https://vimeo.com/105427914" class="image featured"><img src="images/zoukin.png" alt="生きた雑巾" /></a>
+									<header>
+										<h3>生きた雑巾</h3>
+									</header>
+									<p>人生初のメディアアート作品。普段雑に扱っているものに愛着をというテーマで作成しました。雑巾を濡らして、絞ったり洗ったりことで雑巾が呻いたり喜んだ声を出します。</p>
+								</section>
+							</div>
+							<div class="4u">
+							
+								<section>
+									<a href="https://vimeo.com/105429468" class="image featured"><img src="images/mmm.png" alt="きつねのいつまち" /></a>
+									<header>
+										<h3>きつねのいつまち</h3>
+									</header>
+									<p>「４匹の狐」という那珂湊に郷土伝説をモチーフとして作成したメディアアート作品。テーブルに映し出された荒廃した街に狐を配置していくことで、徐々に街が発展していく。</p>
+								</section>
+							</div>
+						</div>
+<!-- 						<footer class="major">
+							<ul class="buttons">
+								<li><a href="#" class="button">See More</a></li>
+							</ul>
+						</footer>
+ -->					
+					</section>
+			</article>
+
+		<!-- CTA -->
+			<section id="cta">
+				<header>
+					<h2>連絡先</h2>
+					<p>ご意見・ご感想、お仕事のご依頼はこちらよりお願いします。</p>
+				</header>
+				<footer>
+					<ul class="buttons">
+						<li><a href="mailto:kento.sfc@gmail.com" class="button special">お問い合わせ</a></li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+			
+				<ul class="icons">
+					<li><a href="https://twitter.com/sasa_sfc" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="https://www.facebook.com/kento.sasamoto.7" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="https://github.com/kentosasa" class="icon circle fa-github"><span class="label">Github</span></a></li>
+				</ul>				
+			</footer>
+
+	</body>
+</html>
